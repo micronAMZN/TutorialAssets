@@ -99,10 +99,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{9898B88F-6ACF-57B4-AEBE-1DE2565C5890}",
+                                    "guid": "{7049CA07-9893-5A57-BBC1-B75587BDD587}",
                                     "subId": 281695968
                                 },
-                                "assetHint": "assets/o3de-logo/o3de-logo.azmodel"
+                                "assetHint": "meshes/o3de-logo/o3de-logo.azmodel"
                             }
                         }
                     }
@@ -120,9 +120,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{F19CE95A-CD9B-5EDC-861D-2D7CBCF0DA48}"
+                                                "guid": "{DF824CD6-6826-54C2-80EC-686B4074C68D}"
                                             },
-                                            "assetHint": "assets/o3de-logo/o3de-logo-white-rough-plastic.azmaterial"
+                                            "assetHint": "meshes/o3de-logo/o3de-logo-white-rough-plastic.azmaterial"
                                         }
                                     }
                                 },
@@ -133,9 +133,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{A57BA650-E1A8-5872-84F1-CD8CFC417BDE}"
+                                                "guid": "{C1162359-9C06-597A-B735-6F5E60B35D7E}"
                                             },
-                                            "assetHint": "assets/o3de-logo/o3de-logo-blue-rough-plastic.azmaterial"
+                                            "assetHint": "meshes/o3de-logo/o3de-logo-blue-rough-plastic.azmaterial"
                                         }
                                     }
                                 }
@@ -149,9 +149,9 @@
                             },
                             "materialAsset": {
                                 "assetId": {
-                                    "guid": "{F19CE95A-CD9B-5EDC-861D-2D7CBCF0DA48}"
+                                    "guid": "{DF824CD6-6826-54C2-80EC-686B4074C68D}"
                                 },
-                                "assetHint": "assets/o3de-logo/o3de-logo-white-rough-plastic.azmaterial"
+                                "assetHint": "meshes/o3de-logo/o3de-logo-white-rough-plastic.azmaterial"
                             }
                         },
                         {
@@ -160,9 +160,31 @@
                             },
                             "materialAsset": {
                                 "assetId": {
-                                    "guid": "{A57BA650-E1A8-5872-84F1-CD8CFC417BDE}"
+                                    "guid": "{C1162359-9C06-597A-B735-6F5E60B35D7E}"
                                 },
-                                "assetHint": "assets/o3de-logo/o3de-logo-blue-rough-plastic.azmaterial"
+                                "assetHint": "meshes/o3de-logo/o3de-logo-blue-rough-plastic.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 1855278976
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{DF824CD6-6826-54C2-80EC-686B4074C68D}"
+                                },
+                                "assetHint": "meshes/o3de-logo/o3de-logo-white-rough-plastic.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2832000967
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{C1162359-9C06-597A-B735-6F5E60B35D7E}"
+                                },
+                                "assetHint": "meshes/o3de-logo/o3de-logo-blue-rough-plastic.azmaterial"
                             }
                         },
                         {
@@ -173,7 +195,7 @@
                                 "assetId": {
                                     "guid": "{F19CE95A-CD9B-5EDC-861D-2D7CBCF0DA48}"
                                 },
-                                "assetHint": "assets/o3de-logo/o3de-logo-white-rough-plastic.azmaterial"
+                                "assetHint": "./o3de-logo-white-rough-plastic.azmaterial"
                             }
                         },
                         {
@@ -184,7 +206,7 @@
                                 "assetId": {
                                     "guid": "{A57BA650-E1A8-5872-84F1-CD8CFC417BDE}"
                                 },
-                                "assetHint": "assets/o3de-logo/o3de-logo-blue-rough-plastic.azmaterial"
+                                "assetHint": "./o3de-logo-blue-rough-plastic.azmaterial"
                             }
                         },
                         {
@@ -195,7 +217,7 @@
                                 "assetId": {
                                     "guid": "{F19CE95A-CD9B-5EDC-861D-2D7CBCF0DA48}"
                                 },
-                                "assetHint": "assets/o3de-logo/o3de-logo-white-rough-plastic.azmaterial"
+                                "assetHint": "./o3de-logo-white-rough-plastic.azmaterial"
                             }
                         },
                         {
@@ -206,11 +228,61 @@
                                 "assetId": {
                                     "guid": "{A57BA650-E1A8-5872-84F1-CD8CFC417BDE}"
                                 },
-                                "assetHint": "assets/o3de-logo/o3de-logo-blue-rough-plastic.azmaterial"
+                                "assetHint": "./o3de-logo-blue-rough-plastic.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 1855278976
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{F19CE95A-CD9B-5EDC-861D-2D7CBCF0DA48}"
+                                },
+                                "assetHint": "./o3de-logo-white-rough-plastic.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2832000967
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{A57BA650-E1A8-5872-84F1-CD8CFC417BDE}"
+                                },
+                                "assetHint": "./o3de-logo-blue-rough-plastic.azmaterial"
                             }
                         }
                     ],
                     "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1855278976
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2832000967
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1855278976
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2832000967
+                                }
+                            }
+                        ],
                         [
                             {
                                 "id": {

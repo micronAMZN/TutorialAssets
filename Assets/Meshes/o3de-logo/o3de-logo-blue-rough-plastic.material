@@ -13,28 +13,28 @@
             ]
         },
         "clearCoat": {
-            "enable": true,
-            "factor": 0.5600000023841858,
+            "factor": 0.0,
             "normalStrength": 0.0,
-            "roughness": 0.6499999761581421
+            "roughness": 0.25
         },
         "general": {
             "applySpecularAA": true
         },
-        "metallic": {
-            "factor": 0.550000011920929
-        },
         "normal": {
-            "flipY": true,
-            "textureMap": "Assets/o3de-logo/o3de-logo-normal.png"
+            "factor": 1.2999999523162842,
+            "textureMap": "Meshes/o3de-logo/o3de-logo-normal.png"
+        },
+        "parallax": {
+            "factor": 0.009999999776482582,
+            "quality": "High",
+            "textureMap": "Meshes/o3de-logo/o3de-logo-height.png"
         },
         "roughness": {
-            "lowerBound": 0.44999998807907104,
-            "textureMap": "Assets/o3de-logo/o3de-logo-roughness.png"
+            "lowerBound": 0.4000000059604645,
+            "textureMap": "Meshes/o3de-logo/o3de-logo-roughness.png"
         },
         "specularF0": {
-            "enableMultiScatterCompensation": true,
-            "factor": 0.6000000238418579
+            "factor": 0.4000000059604645
         }
     }
 }
