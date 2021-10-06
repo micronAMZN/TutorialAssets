@@ -1,0 +1,31 @@
+{
+    "values": [
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "o3de-logo",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.O3DE-Circle-Logomark",
+                    "RootNode.O3DE-Circle-Logomark.O3DE-Circle-Logomark_1",
+                    "RootNode.O3DE-Circle-Logomark.O3DE-Circle-Logomark_2"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule",
+                        "updateMaterials": true,
+                        "removeMaterials": true
+                    }
+                ]
+            },
+            "id": "{816A38D3-F36A-55DA-ACC1-30E2E1CBBCF5}"
+        }
+    ]
+}

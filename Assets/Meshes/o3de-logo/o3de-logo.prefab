@@ -1,0 +1,279 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "o3de-logo",
+        "Components": {
+            "Component_[12353617345642151344]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12353617345642151344
+            },
+            "Component_[13038708368536913672]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13038708368536913672
+            },
+            "Component_[14059605134179967094]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14059605134179967094
+            },
+            "Component_[14083819985580865485]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14083819985580865485
+            },
+            "Component_[16438785584445435363]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16438785584445435363
+            },
+            "Component_[16645631629111297867]": {
+                "$type": "SelectionComponent",
+                "Id": 16645631629111297867
+            },
+            "Component_[2342672297100946229]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2342672297100946229
+            },
+            "Component_[438374062241396389]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 438374062241396389
+            },
+            "Component_[4674563141523625744]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4674563141523625744
+            },
+            "Component_[8910590810434415683]": {
+                "$type": "EditorLockComponent",
+                "Id": 8910590810434415683
+            },
+            "Component_[8974835414555769468]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 8974835414555769468,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[608370182080]": {
+            "Id": "Entity_[608370182080]",
+            "Name": "o3de-logo",
+            "Components": {
+                "Component_[12674501566025936936]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12674501566025936936
+                },
+                "Component_[13534089470646269651]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13534089470646269651
+                },
+                "Component_[15863892403794790933]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15863892403794790933,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4894812597283921521
+                        },
+                        {
+                            "ComponentId": 3589078029997434368,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3853903668756492644,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[1671896185158961351]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1671896185158961351
+                },
+                "Component_[18387757013790659530]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 18387757013790659530
+                },
+                "Component_[1929242929022753922]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1929242929022753922
+                },
+                "Component_[3589078029997434368]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3589078029997434368,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{9898B88F-6ACF-57B4-AEBE-1DE2565C5890}",
+                                    "subId": 281695968
+                                },
+                                "assetHint": "assets/o3de-logo/o3de-logo.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[3853903668756492644]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3853903668756492644,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1855278976
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F19CE95A-CD9B-5EDC-861D-2D7CBCF0DA48}"
+                                            },
+                                            "assetHint": "assets/o3de-logo/o3de-logo-white-rough-plastic.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2832000967
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A57BA650-E1A8-5872-84F1-CD8CFC417BDE}"
+                                            },
+                                            "assetHint": "assets/o3de-logo/o3de-logo-blue-rough-plastic.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 1855278976
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{F19CE95A-CD9B-5EDC-861D-2D7CBCF0DA48}"
+                                },
+                                "assetHint": "assets/o3de-logo/o3de-logo-white-rough-plastic.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2832000967
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{A57BA650-E1A8-5872-84F1-CD8CFC417BDE}"
+                                },
+                                "assetHint": "assets/o3de-logo/o3de-logo-blue-rough-plastic.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 1855278976
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{F19CE95A-CD9B-5EDC-861D-2D7CBCF0DA48}"
+                                },
+                                "assetHint": "assets/o3de-logo/o3de-logo-white-rough-plastic.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2832000967
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{A57BA650-E1A8-5872-84F1-CD8CFC417BDE}"
+                                },
+                                "assetHint": "assets/o3de-logo/o3de-logo-blue-rough-plastic.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 1855278976
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{F19CE95A-CD9B-5EDC-861D-2D7CBCF0DA48}"
+                                },
+                                "assetHint": "assets/o3de-logo/o3de-logo-white-rough-plastic.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2832000967
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{A57BA650-E1A8-5872-84F1-CD8CFC417BDE}"
+                                },
+                                "assetHint": "assets/o3de-logo/o3de-logo-blue-rough-plastic.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1855278976
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2832000967
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1855278976
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2832000967
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1855278976
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2832000967
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[4894812597283921521]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4894812597283921521,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5135720270138019106]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5135720270138019106
+                },
+                "Component_[5178366947364311507]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5178366947364311507
+                },
+                "Component_[7781125115222931348]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7781125115222931348,
+                    "Locked": true
+                }
+            }
+        }
+    }
+}
