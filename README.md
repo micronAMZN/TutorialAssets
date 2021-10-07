@@ -19,8 +19,8 @@ The assets can be found in the `<o3de engine>/Gems/TutorialAssets` directory in 
 
 * All asset submissions must be distributable under the MIT and Apache 2.0 licenses.
 * Optimize all files before submission. Ensure no file is larger than it needs to be.
-* Only sumit files required by the asset.
+* Only submit files required by the asset.
 * Keep asset files organized in their own directories.
 * Meshes should be a reasonable resolution for their use case. There are no strict limits, however, be mindful of file size bloat in the repository.
-* The inclusion of Blender (`.blend`) source files is highly encouraged. Do not include proprietary scene files from closed source apllications (`.ma`, `.max`, `.psd`, and the like) unless the tutorial *requires* the features of closed source applications.
+* The inclusion of Blender (`.blend`) source files is highly encouraged. Do not include proprietary scene files from closed source apllications (`.ma`, `.max`, `.psd`, and the like) unless the tutorial *requires* a closed source application.
 * Images and textures should be no larger than 2048 pixels square, and should be in `.png` format, unless required in the context of the tutorial. Terrain heighmaps and HDR image maps, for example may require more resolution and specialized formats.
