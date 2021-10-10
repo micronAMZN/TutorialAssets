@@ -1,0 +1,29 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "normal": {
+            "factor": 0.47999998927116394,
+            "flipX": true,
+            "flipY": true,
+            "textureMap": "Meshes/o3de-logo/front-normal-dx.png"
+        },
+        "parallax": {
+            "algorithm": "Steep",
+            "factor": 0.02500000037252903,
+            "offset": 0.029999999329447746,
+            "pdo": true,
+            "quality": "Medium",
+            "textureMap": "Meshes/o3de-logo/front-height.png"
+        },
+        "roughness": {
+            "lowerBound": 0.20000000298023224,
+            "textureMap": "Meshes/o3de-logo/front-roughness.png"
+        },
+        "specularF0": {
+            "factor": 0.30000001192092896
+        }
+    }
+}
